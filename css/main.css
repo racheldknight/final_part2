@@ -14,4 +14,11 @@
 #logo {
 	padding: 20px;
 	width: 40%;
+	float: left;
+}
+
+header {
+	width: 50%;
+	float: right;
+	padding: 20px;
 }
