@@ -13,12 +13,10 @@
 
 #logo {
 	padding: 20px;
-	width: 40%;
+	width: 30%;
 	float: left;
 }
 
-header {
-	width: 50%;
-	float: right;
+main {
 	padding: 20px;
 }
