@@ -19,12 +19,16 @@
 
 #logo {
 	padding: 20px;
-	float: left;
 }
 
 aside {
+	width: 30%;
+	float: left;
+	margin-right: 20px;
+}
+
+#sidebar {
 	background-color: #232D77;
-	width: ;
 }
 
 h2 {
