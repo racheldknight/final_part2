@@ -9,6 +9,7 @@
 	display: inline;
 	padding: 0px 20px 0px 20px;
 	color: #fff;
+	font-family: 'Fjalla One', sans-serif;
 }
 
 #wrapper {
@@ -21,8 +22,26 @@
 	float: left;
 }
 
+aside {
+	background-color: #232D77;
+	width: ;
+}
+
+h2 {
+	font-family: 'Cantarell', sans-serif;
+}
+
 main {
 	padding: 20px;
+}
+
+h1 {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+p {
+	font-family: Arial, sans-serif;
+	font-size: 0.9em;
 }
 
 .button {
@@ -30,10 +49,11 @@ main {
 	text-align:center; 
 	padding:11px 32px;
 	border:3px solid #232D77;
-	font:18px Arial, Helvetica, sans-serif;
+	font-family: 'Fjalla One', sans-serif;
 	font-weight:bold;
 	color: #232D77;
 	text-transform: uppercase;
+	display: inline-block;
 }
 
 .button:hover {
