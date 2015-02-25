@@ -108,6 +108,7 @@ footer {
 footer p {
 	color: #fff;
 	font-family: 'Fjalla One', sans-serif;
+	letter-spacing: 2px;
 }
 
 @media (min-width: 300px) {
