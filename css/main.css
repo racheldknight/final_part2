@@ -53,6 +53,8 @@ main {
 
 h1 {
 	font-family: 'Fjalla One', sans-serif;
+	color: #232D77;
+	text-transform: uppercase;
 }
 
 p {
