@@ -14,7 +14,6 @@
 
 #wrapper {
 	margin: 0 auto;
-	width: 80%;
 	max-width: 1000px;
 }
 
@@ -29,24 +28,29 @@ aside {
 }
 
 #sidebar {
-	background-color: #232D77;
-	padding: 0px 20px 0px 20px;
 	height: 273px;
+	padding: 0px 20px 20px 20px;
 }
 
-#sidebar h2 {
-	color: #fff;
+#blue, #red, #yellow, #grey {
+	height: 45px;
+	margin-bottom: 10px;
 }
 
-#sidebar p {
-	color: #fff;
-	border-bottom: 1px solid #fff;
-	padding-bottom: 10px;
+#blue {
+	background-color: #232D77;
 }
 
-.sidebar-link:link {
-	color: #fff;
-	text-decoration: none;
+#red {
+	background-color: #BF2227;
+}
+
+#yellow {
+	background-color: #E8BC1B;
+}
+
+#grey {
+	background-color: #3f3E3E;
 }
 
 h2 {
@@ -125,4 +129,8 @@ footer {
 footer p {
 	color: #fff;
 	font-family: 'Fjalla One', sans-serif;
+}
+
+@media and (min-width: 960px) {
+
 }
