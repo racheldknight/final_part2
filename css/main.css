@@ -15,7 +15,6 @@
 	max-width: 1000px;
 }
 
-
 #sidebar {
 	height: 273px;
 	padding: 0px 20px 20px 20px;
@@ -151,6 +150,9 @@ footer p {
 @media (min-width: 650px) {
 	#logo img {
 		width: 40%;
+	}
+	#nav ul li {
+		padding: 0px 20px 0px 20px;
 	}
 	.img1 {
 		width: 37%
