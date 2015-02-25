@@ -133,14 +133,14 @@ footer p {
 	#nav {
 		text-align: center;
 	}
+	#logo img {
+		width: 50%;
+	}
 }
 
 @media (min-width: 550px) {
 	h1, h2 {
 		text-align: left;
-	}
-	#logo img {
-		width: 40%;
 	}
 	.img2, .img3 {
 		width: 49%;
@@ -148,14 +148,14 @@ footer p {
 }
 
 @media (min-width: 650px) {
+	#logo img {
+		width: 40%;
+	}
 	.img1 {
 		width: 37%
 	}
 	.img2, .img3 {
 		width: 28%;
-	}
-	#logo img {
-		width: 60%;
 	}
 }
 
