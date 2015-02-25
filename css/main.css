@@ -2,12 +2,10 @@
 	width: 100%;
 	background-color: #BF2227;
 	padding: 7px;
-	text-align: center;
 }
 
 #nav ul li {
 	display: inline;
-	padding: 0px 20px 0px 20px;
 	color: #fff;
 	font-family: 'Fjalla One', sans-serif;
 }
@@ -17,15 +15,6 @@
 	max-width: 1000px;
 }
 
-#logo {
-	padding: 20px;
-}
-
-aside {
-	width: 30%;
-	float: left;
-	margin-right: 30px;
-}
 
 #sidebar {
 	height: 273px;
@@ -106,18 +95,6 @@ p {
 	padding: 10px;
 }
 
-.img1 {
-	width: 27%;
-}
-
-.img2 {
-	width: 20%;
-}
-
-.img3 {
-	width: 20%;
-}
-
 footer {
 	width: 100%;
 	background-color: #BF2227;
@@ -131,6 +108,22 @@ footer p {
 	font-family: 'Fjalla One', sans-serif;
 }
 
-@media and (min-width: 960px) {
-
+@media (min-width: 300px) {
+	#logo {
+		padding-top: 10px;
+		text-align: center;
+	}
+	#logo img {
+		width: 70%;
+	}
+	#nav ul li {
+		padding: 0px 10px 0px 10px;
+	}
+	.img1, .img2, .img3 {
+		width: 100%;
+	}
+	h1, h2 {
+		text-align: center;
+	}
 }
+
