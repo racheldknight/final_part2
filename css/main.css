@@ -132,3 +132,15 @@ footer p {
 		text-align: center;
 	}
 }
+
+@media (min-width: 550px) {
+	h1, h2 {
+		text-align: left;
+	}
+	#logo img {
+		width: 40%;
+	}
+	.img2, .img3 {
+		width: 49%;
+	}
+}
