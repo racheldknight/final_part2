@@ -156,3 +156,27 @@ footer p {
 		width: 60%;
 	}
 }
+
+@media (min-width: 850px) {
+	#logo img {
+		width: 31%;
+		float: left;
+	}
+	main {
+		float: right;
+		width: 64%;
+	}
+	.img1 {
+		width: 39%;
+	}
+	.img2, .img3 {
+		width: 29%
+	}
+	aside {
+		float: left;
+		width: 30%;
+	}
+	footer {
+		clear: both;
+	}
+}
