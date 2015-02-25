@@ -144,3 +144,15 @@ footer p {
 		width: 49%;
 	}
 }
+
+@media (min-width: 650px) {
+	.img1 {
+		width: 37%
+	}
+	.img2, .img3 {
+		width: 28%;
+	}
+	#logo img {
+		width: 60%;
+	}
+}
