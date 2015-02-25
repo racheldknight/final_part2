@@ -121,3 +121,8 @@ footer {
 	text-align: center;
 	height: 100px;
 }
+
+footer p {
+	color: #fff;
+	font-family: 'Fjalla One', sans-serif;
+}
