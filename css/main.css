@@ -15,6 +15,7 @@
 #wrapper {
 	margin: 0 auto;
 	width: 80%;
+	max-width: 1000px;
 }
 
 #logo {
@@ -30,11 +31,22 @@ aside {
 #sidebar {
 	background-color: #232D77;
 	padding: 0px 20px 0px 20px;
-	height: 240px;
+	height: 273px;
 }
 
 #sidebar h2 {
 	color: #fff;
+}
+
+#sidebar p {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 10px;
+}
+
+.sidebar-link:link {
+	color: #fff;
+	text-decoration: none;
 }
 
 h2 {
@@ -100,4 +112,12 @@ p {
 
 .img3 {
 	width: 20%;
+}
+
+footer {
+	width: 100%;
+	background-color: #BF2227;
+	padding: 7px;
+	text-align: center;
+	height: 100px;
 }
