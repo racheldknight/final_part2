@@ -6,8 +6,22 @@
 
 #nav ul li {
 	display: inline;
-	color: #fff;
 	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
+}
+
+#nav a:link {
+	text-decoration: none;
+	color: #fff;
+}
+
+#nav a:hover, #nav a:active {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+
+#nav a:visited {
+	color: #fff;
 }
 
 #wrapper {
