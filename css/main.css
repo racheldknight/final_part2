@@ -1,5 +1,5 @@
 #nav {
-	width: calc(100% - 7px);
+	width: calc(100% - 14px);
 	background-color: #BF2227;
 	padding: 7px;
 }
@@ -112,7 +112,7 @@ p {
 }
 
 footer {
-	width: calc(100% - 7px);
+	width: calc(100% - 14px);
 	background-color: #BF2227;
 	padding: 7px;
 	text-align: center;
