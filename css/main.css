@@ -1,7 +1,11 @@
 #nav {
-	width: calc(100% - 7px);
+	width: calc(100% - 14px);
 	background-color: #BF2227;
 	padding: 7px;
+}
+
+#nav ul {
+	padding-left: 0;
 }
 
 #nav ul li {
@@ -31,7 +35,7 @@
 
 #sidebar {
 	height: 273px;
-	padding: 0px 20px 20px 20px;
+	margin: 20px;
 }
 
 #blue, #red, #yellow, #grey {
@@ -78,7 +82,7 @@ p {
 
 .button {
 	text-decoration:none;
-	text-align:center; 
+	text-align:center;
 	padding:11px 32px;
 	border:3px solid #232D77;
 	font-family: 'Fjalla One', sans-serif;
@@ -112,7 +116,7 @@ p {
 }
 
 footer {
-	width: calc(100% - 7px);
+	width: calc(100% - 14px);
 	background-color: #BF2227;
 	padding: 7px;
 	text-align: center;
@@ -193,9 +197,10 @@ footer p {
 	.img2, .img3 {
 		width: 29%
 	}
-	aside {
+	#sidebar {
 		float: left;
 		width: 30%;
+		margin: 0 0 20px;
 	}
 	footer {
 		clear: both;
